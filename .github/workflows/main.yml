@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>first page
+    </title>
+</head>
+
+<style>
+    .body{
+        background-image: url(1.jpg);
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-color: brown;
+        background-blend-mode: soft-light;
+    }
+    .mage {
+    display: block;
+ 
+    border-radius: 50%;
+    border: 5px solid black;
+    width: 200px;
+    height: 200px;
+    }
+.form {
+    padding: 20%;
+}
+}
+</style>
+
+<body class="body">
+
+    <div class="form">
+        <center>
+            <img src="3.jpg" class="mage" align="center">
+            <h2 style="color: blue;"><i><span style="color:red;">SIGN</span>&nbsp; IN HERE MY DARLING...</i></h2>
+        </center>
+          
+            <form action="r1.html" align="center">
+         
+         <input type="text" rows="35" placeholder="input your name okomi..." required>
+         <input type="submit" value="sign in">
+        </form>
+    </div>
+
+</body>
+</html>
